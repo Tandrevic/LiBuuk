@@ -221,6 +221,7 @@ body{
     margin-bottom: 0%;
     margin-top: 4%;
     font-size: 24px;
+    width: 100%;
 }
 .footer-container{
     display: flex;
@@ -251,6 +252,42 @@ body{
     width: 100vw;
     margin-top: -10%;
     margin-bottom: -20%;
+}
+ 
+/* Новостные страницы */
+
+.NewsPages{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.NewsPages p,
+.NewsPages div {
+    text-align: left;
+    margin-top: 20px auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.NewsPages h1,
+.NewsPages h2 {
+    text-align: left;
+    padding-left: 0.625rem;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 0%;
+}
+.NewsPages h1{
+    margin-bottom: 0%;
+}
+.NewsPages img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1.25rem;
+    text-align: center;
 }
 
 /* Конец */
